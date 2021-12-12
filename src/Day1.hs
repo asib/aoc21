@@ -1,7 +1,7 @@
 module Day1 where
 
-part1 :: [Integer] -> Integer
-part1 = part1' 0
+part1 :: String -> Integer
+part1 = part1' 0 . map read . lines
 
 part1' :: Integer -> [Integer] -> Integer
 part1' n [] = n

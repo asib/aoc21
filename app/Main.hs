@@ -1,7 +1,7 @@
 module Main where
 
 import Lib
-import Day1 (part1, part2)
+import Day2
 
 main :: IO ()
-main = interact (interact' part2)
+main = interact (show . part2)
